@@ -1,0 +1,22 @@
+
+#message_to_user.modal-message-hide{display:none;}
+#message_to_user.modal-message-open{position:fixed;font-family:'Open Sans Condensed', sans-serif;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.6);z-index: 99999;display:block;pointer-events:auto;}
+#message_to_user  .modal-message-dialog{width:80%;overflow:auto;position:relative;margin:10%;padding:0px !important;border-radius:10px;background:#f5f5f5;}
+#message_to_user .modal-message-dialog .modal-message-header{padding:20px;margin:0px !important;background:#f5f5f5 url('/images/line_modal.jpg') 0px 0px repeat-x;border-top-right-radius: 10px;border-top-left-radius: 10px;}
+#message_to_user .modal-message-dialog .modal-message-header h4{color:#303B55 !important;font-size:16px;text-align:center;padding:0px !important;margin:0px !important;}
+#message_to_user .close{color:red;opacity: 1;}
+#message_to_user .modal-message-dialog .madal-message-content{background:#fff;text-align:center;padding:0px!important;margin:0px !important;border-radius:none;font-size:16px !important;}
+#message_to_user .modal-message-dialog .madal-message-content .madal-message-text{padding:10px;font-size:14px;text-align:center;}
+#message_to_user .modal-message-dialog .madal-message-content .img-message-content{position:relative;padding:0px!important;margin:0px !important;}
+#message_to_user .modal-message-dialog .modal-message-footer{min-height:50px;font-size:14px;padding:10px 40px !important;text-align:right;margin:0px !important;background:#f5f5f5 url('/images/line_modal.jpg') bottom 0px left 0px repeat-x;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}	
+#message_to_user .modal-message-dialog .modal-message-footer:after {clear: both;}	
+@media (min-width: 1000px) and (max-width: 1300px) {
+#message_to_user .modal-message-dialog{width:60%;margin:10% 20%;}
+#message_to_user .modal-message-dialog .modal-message-header h4{font-size:18px;}
+#message_to_user .modal-message-dialog .madal-message-content .madal-message-text{padding:20px;font-size:16px;}	
+}
+@media (min-width: 1300px){
+#message_to_user .modal-message-dialog{width:50%;margin:10% 25%;}
+#message_to_user .modal-message-dialog .modal-message-header h4{font-size:22px;}	
+#message_to_user .modal-message-dialog .madal-message-content .madal-message-text{padding:20px 20px 10px 20px;font-size:18px;}	
+}
